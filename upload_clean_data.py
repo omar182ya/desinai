@@ -9,14 +9,14 @@ import torch
 from nltk.corpus import stopwords
 import string
 
-ip_rest = '181.115.236.149'#181.115.236.149
-port_rest = '8081'
+ip_rest = 'localhost'
+port_rest = '80'
 
-subscription_Key = "489291803ae74a848cc75f5d25be960d"
-account_id = "a2929e30-eb35-4e8f-9a6d-55e69ad2bf7e"
-location = "trial"
+subscription_Key = ""
+account_id = ""
+location = ""
 access_token = ""
-videoId = "4e34f4c411"
+videoId = ""
 
 
 nlp = stanza.Pipeline('es') 
